@@ -34,6 +34,9 @@ public class User {
 		return "User [id=" + id + ", userName=" + userName + ", userAddress=" + userAddress + ", age=" + age + "]";
 	}
 	public User(){}
+	public User(Integer id){
+		this.id=id
+	}
 	
 	
 	
