@@ -38,6 +38,14 @@ public class User {
 	public User(Integer id){
 		this.id=id;
 	}
+	public User(Integer id, String userName, String userAddress, int age) {
+		super();
+		this.id = id;
+		this.userName = userName;
+		this.userAddress = userAddress;
+		this.age = age;
+	}
+	
 	
 	
 	
