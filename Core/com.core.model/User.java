@@ -33,6 +33,7 @@ public class User {
 	public String toString() {
 		return "User [id=" + id + ", userName=" + userName + ", userAddress=" + userAddress + ", age=" + age + "]";
 	}
+	public User(){}
 	
 	
 	
